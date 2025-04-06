@@ -1,0 +1,106 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ff9a9e, #fad0c4);
+    text-align: center;
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Container */
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Title */
+h1 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+/* Timetable */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+/* Table Headings */
+th {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+}
+
+/* Section Column */
+th.section {
+    background-color: #555;
+}
+
+/* Table Cells */
+td {
+    border: 1px solid black;
+    padding: 12px;
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Subjects Styling */
+.phy {
+    background-color: #ffdd57;
+}
+
+.cse {
+    background-color: #87CEEB;
+}
+
+.math {
+    background-color: #ff6f61;
+}
+
+.math2 {
+    background-color: #FFB6C1;
+}
+
+.lab {
+    background-color: #ffa500;
+}
+
+.admin {
+    background-color: #fa8072;
+}
+
+.cir {
+    background-color: #b0e57c;
+}
+
+.mech {
+    background-color: #808080;
+    color: white;
+}
+
+/* Hover Effect */
+td:hover {
+    background: rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+/* Fade-In Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
